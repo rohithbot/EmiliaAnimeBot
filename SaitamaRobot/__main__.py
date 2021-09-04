@@ -53,20 +53,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👸](https://telegra.ph/file/eb183a86b5fc974b56d99.jpg) `My name is` *VALT AOI*
-
+`Hey There!` [👸](https://telegra.ph/file/eb183a86b5fc974b56d99.jpg) `My name is` *GINGKA HAGANE*
 `I am an cartoon Themed group management bot.
-
 Managed by Pigasus Updates for Your Telegram Group
 Join @PigasusUpdates & @PigasusSupport.
-
 You can find my list of available commands with! Hit` *🔐Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="[ADD GINGKA HAGANE TO YOUR GROUP]",url="t.me/valtaoibladerbot?startgroup=true"),
+            text="[ADD GINGKA HAGANE TO YOUR GROUP]",url="t.me/valtaoithebestbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -97,7 +94,7 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [VALT AOI] ("https://telegra.ph/file/eb183a86b5fc974b56d99.jpg") 
+`Hey there! My name is` [VALT AOI]("https://telegra.ph/file/eb183a86b5fc974b56d99.jpg") 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -689,7 +686,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ʏᴏᴜʀ VALT AOI ɪs ᴏɴʟɪɴᴇ ᴄʜᴇᴄᴋ ᴍʏ Friend - @ShuKurenaithebot")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Hᴇʏ Yᴏᴜʀ VALT Is Oɴʟɪɴᴇ")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"

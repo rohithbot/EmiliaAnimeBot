@@ -97,7 +97,7 @@ InlineKeyboardButton(
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [VALT AOI]("https://telegra.ph/file/eb183a86b5fc974b56d99.jpg") 
+`Hey there! My name is` [VALT AOI] ("https://telegra.ph/file/eb183a86b5fc974b56d99.jpg") 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
